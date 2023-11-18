@@ -220,6 +220,7 @@ const gameOver = (id, timeUp) => {
 
     if (timeUp === true) {
         // タイムアップのメッセージを表示する
+        typedfield.textContent = ''; 
         untypedfield.textContent = 'TIME UP！';
         // count 要素に red クラスを追加して赤く表示する
         count.classList.add('red');
