@@ -232,6 +232,7 @@ const gameOver = (id, timeUp) => {
                 window.location.reload();
             } else {
                 // キャンセルが選択された場合
+                typedfield.textContent = ''; 
                 untypedfield.textContent = `お疲れ様でした!!`;
                 count.textContent = `継続は力なり!!`;
 
