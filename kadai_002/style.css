@@ -1,0 +1,40 @@
+body {
+    font-size: 6em;
+    text-align: center;
+}
+
+.count {
+    margin: 0px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.wrap {
+    margin: top 20px;
+    padding: 80px 40px;
+    background-color: #666;
+    font-weight: bold;
+    color: #fff;
+}
+.typed{
+    color: lightgreen;
+}
+.mistyped{
+    background-color: red;
+
+}
+html{
+    background-image: url(pcphoto2.png);
+    background-size:100%;
+}
+#start{
+    font-size: 50px;
+    padding:30px;
+    font-weight: bold;
+    background-color:rgb(255, 179, 0);
+    color:rgb(173, 22, 22);
+}
+
+.red {
+    color: red; /* ゲーム終了後に赤色に変更*/
+}
